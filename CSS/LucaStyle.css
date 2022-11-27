@@ -1,0 +1,1343 @@
+/* Main body starts*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Filosofia,Georgia,serif;
+    box-sizing: border-box;
+    font-weight:lighter;
+}
+
+@font-face{
+    font-family: "Filosofia";
+    src: url("../Fonts/FilosofiaOT-Regular.otf") format("opentype");
+}
+/*Main body ends*/
+
+/*Section 1 starts*/
+.header{
+    display: flex;
+    min-height: 100vh;
+    background-image: url(../Images/Slideshow1/main_bg-2000x1509.jpeg);
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+}
+
+.header .logo{
+    width: 26%;
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+
+}
+
+.logo img{
+    object-fit: cover;
+}
+/*Section 1 ends*/
+
+/* Navigation Bar starts*/
+.NavBar{
+    align-items: left;
+    justify-content: space-between;
+    padding-left: 17px;
+    padding-top: 32px;
+    position: absolute;
+    z-index: 900000;
+}
+
+.link
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #ffffff;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+}
+
+.link1
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.link2
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.link:hover
+{
+    text-decoration: underline rgb(255, 255, 255) 1px;
+    
+}
+
+.link2:hover
+{
+    text-decoration: underline rgb(255, 255, 255) 1px;
+}
+
+mark{
+    background-color: white;
+    color: black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*Navigation bar ends*/
+
+/*Section 2 ~ british seasonal ~ starts*/
+.section2{
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.desc{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    background: #ffffff;
+    position: relative;
+}
+
+.desc img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    opacity: 0.2;
+}
+
+
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 220%;
+
+}
+/*Section 2 ends*/
+
+/*Section 3 ~ restaurant ~ starts*/
+.section3{
+    width: 100%;
+    height: 100vh;
+}
+
+.float-container{
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+
+}
+.float-container img{
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+}
+
+.float-container2{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 50%;
+}
+
+.float-container2 img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+.restaurant{
+    padding: 100px;
+    position: absolute;
+}
+
+.restaurant_img{
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 55%;
+    position: absolute;
+    padding: 200px;
+    left: 3%;
+}
+
+.restaurant_img img{
+    width: 60%;
+    height: 10vh;
+    float: left;
+    object-position: center center;
+}
+
+.restaurant_text{
+    float: left;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    top: 168%;
+    padding: 160px;
+    line-height: 30px;
+}
+
+.book_table:hover{
+    position: absolute;
+    border: none;
+    top: 220%;
+    left: 18%;
+    float: left;
+    padding: 100px;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 600ms;
+    cursor: pointer;
+}
+.book_table{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    top: 220%;
+    left: 18%;
+    float: left;
+    padding: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+
+/*Section 3 ends*/
+
+
+/*Section 4 ~ christmas ~ starts*/
+.section4{
+    width: 100%;
+    height: 100vh;
+}
+
+.float-container3{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 50%;
+
+}
+.float-container3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.float-container4{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 50%;
+
+}
+.float-container4 img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.christmas_img{
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: right;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 275%;
+}
+
+.christmas_img img{
+    width: 20%;
+    height: 10vh;
+    float: right;
+}
+
+.christmas_text{
+    float: right;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    top: 265%;
+    padding: 180px;
+    line-height: 30px;
+}
+.enquire:hover{
+    position: absolute;
+    border: none;
+    float: left;
+    padding: 100px;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 600ms;
+    cursor: pointer;
+}
+.enquire{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    top: 800%;
+    left: 98%;
+    float: left;
+    padding: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+.buttons{
+    position: absolute;
+    top: 330%;
+    left: 57%;
+    width: 20%;
+    transition: 600ms;
+}
+.events_broch:hover{
+    position: absolute;
+    border: none;
+    top: 220%;
+    left: 18%;
+    float: left;
+    padding: 100px;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 600ms;
+    cursor: pointer;
+}
+.events_broch{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    top: 220%;
+    left: 18%;
+    float: left;
+    padding: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+/*Section 4 ends*/
+
+/*Section 5 ~ luca bar ~ starts*/
+.section5{
+    width: 100%;
+    height: 100vh;
+}
+.float-container5{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 50%;
+
+}
+.float-container5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.float-container6{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: right;
+    width: 50%;
+
+}
+.float-container6 img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+.LucaBar_img{
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 60%;
+    position: absolute;
+    top: 378%;
+    left: 18%;
+}
+
+.LucaBar_img img{
+    width: 20%;
+    height: 10vh;
+    float: left;
+}
+
+.LucaBar_text{
+    float: left;
+    width: 25%;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    top: 390%;
+    line-height: 30px;
+    left: 12%;
+}
+.book_table2{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    top: 420%;
+    left: 18%;
+    float: left;
+    padding: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+.book_table2:hover{
+    position: absolute;
+    border: none;
+    background-color: white;
+    top: 420%;
+    left: 18%;
+    float: left;
+    padding: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+}
+/*Section 5 ends*/
+
+/*Section 6 ~ slideshow ~ starts*/
+.section6{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../Images/Slideshow1/main_bg-2000x1509.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.slideshow_img{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.slideshow_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Section 6 ends*/
+
+/*Section 7 ~ private dining ~ starts*/
+.section7{
+    height: 60vh;
+    width: 100%;
+}
+
+.float-container7{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 50%;
+
+}
+.float-container7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.float-container8{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: right;
+    width: 50%;
+
+}
+.float-container8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.privatedining_img{
+    height: 100;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: right;
+    width: 75%;
+    position: absolute;
+    top: 560%;
+    left: 8%;
+}
+
+.privatedining_img img{
+    width: 20%;
+    height: 10vh;
+    float: right;
+}
+
+.privatedining_text{
+    float: right;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    font-size: 21px;
+    top: 553%;
+    left: 51%;
+    padding: 150px;
+    line-height: 30px;
+}
+
+.enquire2{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    top: 600%;
+    left: 69%;
+    float: left;
+    padding: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+.enquire2:hover{
+    position: absolute;
+    border: none;
+    background-color: white;
+    top: 600%;
+    left: 69%;
+    float: left;
+    padding: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+}
+.book_table3{
+    position: absolute;
+    border: none;
+    background-color: white;
+    top: 755%;
+    left: 43%;
+    float: left;
+    padding: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+.book_table3:hover{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    top: 755%;
+    left: 43%;
+    float: left;
+    padding: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 500ms;
+    cursor: pointer;
+}
+/*section 7 ends*/
+
+
+/*section 8 ~ gifts & experiences ~ starts*/
+.section8{
+    height: 60vh;
+    width: 100%;
+}
+
+.float-container9{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 50%;
+
+}
+.float-container9 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.float-container10{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: right;
+    width: 50%;
+
+
+}
+.float-container10 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.gande_img{
+    height: 100%;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 95%;
+    position: absolute;
+    top: 634%;
+    left: 15%;
+}
+
+.gande_img img{
+    width: 20%;
+    height: 10vh;
+    float: left;
+}
+
+.gande_text{
+    float: left;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    top: 623%;
+    padding: 200px;
+    line-height: 30px;
+}
+
+.dining{
+    position: absolute;
+    border: none;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 60%;
+    left: 32%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+.dining:hover{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 60%;
+    left: 32%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+}
+
+.bar{
+    position: absolute;
+    border: none;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 60%;
+    left: 51%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+.bar:hover{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 60%;
+    left: 51%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+}
+
+.desserts{
+    position: absolute;
+    border: none;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 69%;
+    left: 32%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+
+.desserts:hover{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 69%;
+    left: 32%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+}
+
+.drinks{
+    position: absolute;
+    border: none;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 69%;
+    left: 51%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+
+.drinks:hover{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 69%;
+    left: 51%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+}
+
+.wine{
+    position: absolute;
+    border: none;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 78%;
+    left: 32%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+
+.wine:hover{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 78%;
+    left: 32%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+}
+
+.private{
+    position: absolute;
+    border: none;
+    background-color: white;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 78%;
+    left: 51%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+
+.private:hover{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    float: left;
+    width: 250px;
+    height: 50px;
+    top: 78%;
+    left: 51%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+}
+/*Section 8 ends*/
+
+/*section 9 ~ reservations ~ starts*/
+.section9{
+    height: 110vh;
+    width: 100%;
+}
+
+.reservations_img{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    background-image: url('../Images/backgrounds/reservations.png');
+    position: relative;
+}
+
+
+.reservations_header{
+    overflow: hidden;
+    animation: fadeIn 3s;
+    width: 95%;
+    position: absolute;
+    top: 23%;
+    left: 38%;
+}
+
+.reservations_header img{
+    width: 25%;
+    height: 100%;
+}
+
+
+.reservations_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 140%;
+    text-align: center;
+    width: 30%;
+    line-height: 30px;
+}
+
+.email{
+    color: white;
+    text-decoration: none;
+}
+
+.email:hover{
+    color: white;
+    text-decoration: underline white;
+}
+
+.button{
+    top: 660%;
+    left: 18%;
+    position: absolute;
+
+}
+
+
+
+/*Section 10 ~ menus ~ starts*/
+.section10{
+    height: 100vh;
+    width: 100%;
+}
+
+.menus_img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    background-image: url('../Images/backgrounds/menus.png');
+    position: relative;
+}
+
+.menus_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.menus_header{
+    overflow: hidden;
+    animation: fadeIn 3s;
+    width: 45%;
+    position: absolute;
+    top: 13%;
+    left: 45%;
+}
+
+.menus_header img{
+    width: 25%;
+    height: 100%;
+}
+
+.menus_text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 140%;
+    text-align: center;
+    width: 45%;
+    line-height: 30px;
+}
+
+/*Section 10 ends*/
+
+/*section 11 ~ press & accolades~ starts*/
+.section11{
+    height: 100vh;
+    width: 100%;
+}
+
+.panda_img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    background-image: url('../Images/backgrounds/pressandaccolades.png');
+    position: relative;
+}
+
+.panda_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.panda_header{
+    overflow: hidden;
+    animation: fadeIn 3s;
+    width: 125%;
+    position: absolute;
+    top: 22%;
+    left: 35%;
+}
+
+.panda_header img{
+    width: 25%;
+    height: 100%;
+}
+
+.panda_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 190%;
+    text-align: center;
+}
+
+.guardian_logo{
+    position: absolute;
+    top: 63%;
+    left: 47%;
+    width: 8%;
+}
+
+.panda_text2 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 140%;
+    text-align: center;
+}
+/*Section 11 ends*/
+
+/*Section 12 starts*/
+.section12{
+    width: 100%;
+    height: 100vh;
+}
+
+.handl_img{
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 60%;
+    position: absolute;
+    padding: 200px;
+    top: 976%;
+}
+
+.handl_img img{
+    width: 70%;
+    height: 10vh;
+    float: left;
+    object-position: center center;
+}
+
+.handl_text{
+    float: left;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    top: 170%;
+    padding: 200px;
+    line-height: 30px;
+}
+
+.handl_ps{
+    width: 50%;
+    float: left;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    top: 1010%;
+    line-height: 30px;
+    color: white;
+    padding: 80px;
+}
+
+.restaurant_title{
+    padding-bottom: 7px;
+    border-bottom: 1px solid white;
+}
+
+.location_title{
+    padding-bottom: 7px;
+    border-bottom: 1px solid white;
+}
+
+.float-container11{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: left;
+    width: 50%;
+    background: rgb(84, 117, 145);
+
+}
+.float-container11 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.float-container12{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    float: right;
+    width: 50%;
+
+}
+.float-container12 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section13{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    animation: fadeIn 3s;
+    background: rgba(228, 221, 148, 0.824);
+    position: relative;
+}
+.maps{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    float: left;
+    width: 200px;
+    height: 50px;
+    top: 1060%;
+    left: 19%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    color: white;
+}
+.maps:hover{
+    position: absolute;
+    border: none;
+    background-color: white;
+    float: left;
+    width: 200px;
+    height: 50px;
+    top: 1060%;
+    left: 19%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+    color: white;
+}
+.info3{
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+    float: left;
+    width: 200px;
+    height: 50px;
+    top: 660%;
+    left: 17%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+}
+.info3:hover{
+    position: absolute;
+    border: none;
+    background-color: white;
+    float: left;
+    width: 200px;
+    height: 50px;
+    top: 660%;
+    left: 17%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 900000000;
+    transition: 600ms;
+    cursor: pointer;
+}
+/*Section 12 ends*/
+
+/*contact page*/
+.contact_text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 140%;
+    letter-spacing: 2px;
+}
+
+
+.contact_desc {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 90%;
+    padding: 110px;
+    padding-top: 600px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.contact_desc p{
+    padding: 15px;
+}
+
+#fname{
+    background-color: transparent;
+    width: 270px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#lname{
+    background-color: transparent;
+    width: 270px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#email{
+    background-color: transparent;
+    width: 270px;
+    height: 40px;
+    border: 1px solid black;
+    
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+input:focus::placeholder {
+    color: transparent;
+  }
+*:focus {
+    outline: none;
+    padding-left: 10px;
+  }
+button{
+    padding: 0px !important;
+}
+.subscribe_butn{
+    border-radius: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background: transparent;
+    width: 120px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.subscribe_butn img{
+    width: 13px;
+    padding-right: 4px;
+}
+
+.contact_desc h2{
+    padding-top: 50px;
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: rgb(255, 255, 189);
+}
+
+.subscribe{
+    font-size: 12px;
+}
+
+.links{
+    list-style-type: none;
+}
+
+.links a:visited { 
+    text-decoration: none; 
+    color: rgb(194, 191, 141);
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(194, 191, 141);
+}
+
+.links a:hover{
+    color: rgb(139, 137, 102); 
+    transition: 260ms;
+}
+/*Contact page ends*/
